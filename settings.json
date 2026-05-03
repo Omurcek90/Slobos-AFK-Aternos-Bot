@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "ServerBot",
+    "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "biltes.aternos.me",
-    "port": 17747,
+    "ip": "slobtest1.aternos.me",
+    "port": 27586,
     "version": "",
     "try-creative": false
   },
@@ -28,7 +28,7 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
+      "repeat": true,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -65,8 +65,8 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
